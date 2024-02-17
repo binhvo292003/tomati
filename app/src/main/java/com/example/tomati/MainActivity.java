@@ -78,6 +78,8 @@ public class MainActivity extends Activity {
                 progressBarText.setText(String.valueOf(totalTimeInMillis / 1000));
                 myButton.setEnabled(true);
                 stateBtn.setVisibility(View.INVISIBLE);
+                stateBtn.setImageResource(R.drawable.pause);
+                statePause = false;
                 restartBtn.setVisibility(View.INVISIBLE);
             }
         });
